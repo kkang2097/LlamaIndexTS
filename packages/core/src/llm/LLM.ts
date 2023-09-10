@@ -215,6 +215,8 @@ export class OpenAI implements LLM {
     prompt: string,
     parentEvent?: Event,
   ): Promise<CompletionResponse> {
+    //TODO: Delete this later
+    console.log(prompt);
     return this.chat([{ content: prompt, role: "user" }], parentEvent);
   }
 }
