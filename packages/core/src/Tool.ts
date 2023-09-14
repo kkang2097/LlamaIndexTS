@@ -1,4 +1,5 @@
 import { BaseQueryEngine } from "./QueryEngine";
+import { BaseRetriever } from "./Retriever";
 
 export interface ToolMetadata {
   description: string;
@@ -17,4 +18,11 @@ export interface BaseTool {
  */
 export interface QueryEngineTool extends BaseTool {
   queryEngine: BaseQueryEngine;
+}
+
+/**
+ * A Tool that uses a Retriever.
+ */
+export interface RetrieverTool extends BaseTool {
+  retriever: BaseRetriever;
 }
