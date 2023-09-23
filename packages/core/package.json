@@ -1,6 +1,6 @@
 {
   "name": "fake-lits",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.6.2",
     "@notionhq/client": "^2.2.13",
