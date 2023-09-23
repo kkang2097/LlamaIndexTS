@@ -1,3 +1,5 @@
+Warning: This is just an experimental fork of LITS
+
 # LlamaIndex.TS
 
 LlamaIndex is a data framework for your LLM application.
